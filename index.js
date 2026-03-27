@@ -57,7 +57,7 @@ const arr = [1, [2, 3], [4, [5, 6]]];
 console.log(arr.flat(Infinity));
 
 const twoSum = (nums, target) => {
-  const map = {}; // value -> index
+  const map = {};
 
   for (let i = 0; i < nums.length; i++) {
     const complement = target - nums[i];
